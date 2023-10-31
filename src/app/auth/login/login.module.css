@@ -1,0 +1,95 @@
+.signMainRow {
+  width: 75%;
+}
+.siginTitle {
+  padding: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.login {
+  font-size: 30px;
+  font-weight: 600;
+}
+.signin {
+  color: #42f5dd !important;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.textBold {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.2em;
+  margin: 0;
+  font-weight: 700;
+  color: #012939;
+}
+.loginBtn {
+  margin-top: 10px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #42f5dd;
+  min-height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem !important;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.125rem;
+  outline: none;
+  margin-bottom: 2rem !important;
+  font-weight: 700;
+}
+
+.leftCol {
+  border-right: 1px solid black;
+  /* padding-right: 30px !important; */
+}
+.rightCol {
+  padding-left: 30px !important;
+}
+
+@media screen and (max-width: 576px) {
+  .siginTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 20px;
+  }
+  .login {
+    font-size: 20px;
+  }
+  .signMainRow {
+    width: 90%;
+  }
+  .rightCol {
+    padding-left: 0px !important;
+  }
+  .leftCol {
+    border-right: none;
+  }
+  .errorMessage {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .signMainRow {
+    width: 90%;
+  }
+  .leftCol {
+    padding-right: 30px !important;
+    /* border-right: none !important; */
+  }
+  .rightCol {
+    padding-left: 30px !important;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .leftCol {
+    padding-right: 30px !important;
+  }
+}
